@@ -188,8 +188,7 @@ address.
             {% comment %}
             AUDIENCE
 
-            Explain who your audience is.  (In particular, tell readers if the
-            workshop is only open to people from a particular institution.
+            This workshop is designed for BA students in the humanities who are interested in digital methods. It is part of AU Summer University at Aarhus University, Denmark. However, all interested     individuals are encouraged to contact the course instructors to discuss the possibility of attendance. 
             {% endcomment %}
             {% assign who_file = site.carpentry | append: '/who.html' %}
             {% if isOfficial %}
@@ -489,13 +488,7 @@ of code below the Schedule `<h2>` header below with
   <h5 class="card-header">Schedule</h5>
   <div class="card-body">
 
-    {% assign schedule_file = site.carpentry | append: '/schedule.html' %}
-    {% if isOfficial %}
-    {% include {{ schedule_file }} %}
-    {% elsif site.carpentry == "incubator" %}
-    This workshop is teaching a lesson in 
-    <a href="https://carpentries-incubator.org/">The Carpentries Incubator</a>. Please check <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for a list of lesson sections and estimated timings.
-    {% endif %}
+    % include custom-schedule.html %
 
     {% comment %}
     Edit/replace the text above if you want to include a schedule table.
