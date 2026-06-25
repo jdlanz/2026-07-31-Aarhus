@@ -185,11 +185,11 @@ address.
     <div class="row">
         <dt class="col-sm-2 col-md-2 py-2 px-3 bg-body-light text-body-secondary fw-bold">Who</dt>
         <dd class="col py-2 px-3 mx-0 mb-0">
-            {% comment %}
+          
             AUDIENCE
 
-            This workshop is designed for BA students in the humanities who are interested in digital methods. It is part of AU Summer University at Aarhus University, Denmark. However, all interested     individuals are encouraged to contact the course instructors to discuss the possibility of attendance. 
-            {% endcomment %}
+            This workshop is designed for BA students in the humanities who are interested in digital methods. It is part of AU Summer University at Aarhus University, Denmark. However, all interested individuals are encouraged to contact the course instructors to discuss the possibility of attendance. 
+        
             {% assign who_file = site.carpentry | append: '/who.html' %}
             {% if isOfficial %}
             {% include {{ who_file }} %}
