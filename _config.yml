@@ -29,7 +29,7 @@ carpentry: "swc"
 # dc-astronomy:     for Data Carpentry Astronomy
 # dc-ecology:       for Data Carpentry Ecology
 # dc-genomics:      for Data Carpentry Genomics
-# dc-socsci:        for Data Carpentry Social Sciences
+ dc-socsci:        for Data Carpentry Social Sciences
 # dc-geospatial:    for Data Carpentry Geospatial
 # dc-image:         for Data Carpentry Image Processing
 # swc-inflammation: for Software Carpentry based on the inflammation dataset
@@ -54,7 +54,7 @@ pilot: false
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Workshop Title"
+title: "Digital Archives and Methods"
 
 #------------------------------------------------------------
 # Incubator workshop settings (only relevant for workshops teaching a lesson
